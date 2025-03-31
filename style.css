@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    color:#333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 25px 15px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+header:hover, footer:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 0.2em;
+    letter-spacing: 2px;
+}
+
+header p, footer p {
+    font-size: 1.1em;
+}
+
+header a, footer a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    color: #ff6347;
+}
+
+section {
+    background-color: #fff;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid #00aaff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+ul li:hover {
+    color: #00aaff;
+}
+
+article {
+    margin-bottom: 15px;
+}
+
+article h3 {
+    font-size: 1.6em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+article p {
+    margin: 4px 0;
+    font-size: 1em;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    article h3 {
+        font-size: 1.3em;
+    }
+}
